@@ -9,9 +9,9 @@ public class HMC_db_Stepdefinitions {
             "user=techproed;password=P2s@rt65";
     String username = "techproed";
     String password = "P2s@rt65";
-    Connection connection;
-    Statement statement;
-    ResultSet resultSet;
+    Connection connection; // Database'e baglanmamizi saglar
+    Statement statement; // Query calistirmamizi saglar
+    ResultSet resultSet; // Query sonucunda dönen sinucu store etmemizi saglar
 
     @Given("kullanici HMC veri tabanina baglanir")
     public void kullanici_hmc_veri_tabanina_baglanir() throws SQLException {
