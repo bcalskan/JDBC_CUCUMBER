@@ -11,7 +11,7 @@ public class HMC_db_Stepdefinitions {
     String password = "P2s@rt65";
     Connection connection; // Database'e baglanmamizi saglar
     Statement statement; // Query calistirmamizi saglar
-    ResultSet resultSet; // Query sonucunda dönen sinucu store etmemizi saglar
+    ResultSet resultSet; // Query sonucunda dönen sonucu store etmemizi saglar
 
     @Given("kullanici HMC veri tabanina baglanir")
     public void kullanici_hmc_veri_tabanina_baglanir() throws SQLException {
